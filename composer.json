@@ -1,0 +1,23 @@
+{
+    "name": "darkwarrior/warrior-test",
+    "description": "测试",
+    "type": "library",
+    "keywords": [
+        "darkwarrior"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darkwarrior",
+            "email": "1207275734@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+    },
+    "autoload": {
+        "psr-4": {
+            "darkwarrior\\test\\": "src/"
+        }
+    }
+}
